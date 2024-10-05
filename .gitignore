@@ -1,0 +1,7 @@
+.venv
+config
+dags
+logs
+plugins
+.env
+docker-compose.yaml
