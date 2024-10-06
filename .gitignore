@@ -1,6 +1,5 @@
 .venv
 config
-dags
 logs
 plugins
 .env
