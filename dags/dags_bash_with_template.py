@@ -20,7 +20,7 @@ with DAG(
         env={
             'START_DATE':'{{ data_interval_start | ds }}',
             'END_DATE' : '{{ data_interval_end | ds }}'
-        }
+        },
         bash_command='echo $START_DATE && echo $END_DATE'
     )
 
