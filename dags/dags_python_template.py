@@ -17,7 +17,7 @@ with DAG(
 
     python_t1 = PythonOperator(
         task_id='python_t1',
-        python_callable=python_function1
+        python_callable=python_function1,
         op_kwargs={'start_date':'{{ data_interval_start | ds }}', 'end_date':'{{ data_interval_end | ds }}'}
     )
 
