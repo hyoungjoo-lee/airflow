@@ -32,7 +32,7 @@ with DAG(
         task_id='bash_push',
         bash_command='echo PUSH_START '
                      '{{ ti.xcom_push(key="bash_pushed", value=200)}} && '
-                     'ecgi PUSH COMPLETE'
+                     'echo PUSH COMPLETE'
     )
 
     @task(task_id='python_pull')
