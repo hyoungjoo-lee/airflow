@@ -7,7 +7,7 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.python import BranchPythonOperator
 
 with DAG(
-    dag_id='dags_branch_python_operator',
+    dag_id='dags_python_with_trigger_rule_eg2',
     start_date=pendulum.datetime(2024, 10, 1, tz='Asia/Seoul'),
     schedule=None,
     catchup=False
