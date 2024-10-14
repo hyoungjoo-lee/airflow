@@ -18,7 +18,7 @@ with DAG(
         task_id='inst_postgres',
         python_callable=insrt_postgres,
         op_kwargs={'postgres_conn_id' : 'conn-db-postgres-custom',
-                   'tbl_nm' : 'TbUseDaystatusView',
+                   'tbl_nm' : 'TbUseDaystatusView_bulk1',
                    'file_nm' : '/opt/airflow/files/TbUseDaystatusView/20241012/TbUseDaystatusView.csv'
                    }
     )
