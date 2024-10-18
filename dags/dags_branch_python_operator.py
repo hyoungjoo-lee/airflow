@@ -13,7 +13,7 @@ with DAG(
         import random
 
         item_list = ['A', 'B', 'C']
-        selected_item = random.choice(item_list)
+        selected_item = random.cfihoice(item_list)
         if selected_item == 'A':
             return 'task_a'
         elif selected_item in ['B', 'C']:
