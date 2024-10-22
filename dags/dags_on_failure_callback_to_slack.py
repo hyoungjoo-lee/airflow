@@ -7,7 +7,7 @@ from config.on_failure_callback_to_slack import on_failure_callback_to_slack
 
 with DAG(
     dag_id="dags_on_failure_callback_to_slack",
-    schedule="/20 * * * *",
+    schedule="*/20 * * * *",
     start_date=pendulum.datetime(2024, 10, 1, tz="Asia/Seoul"),
     catchup=False,
     default_args={
