@@ -64,6 +64,7 @@ def send_kakao_msg(talk_title: str, content: dict):
                     'mobile_web_url' : ''
                 }
             })
+            
         list_data = {
             'object_type' : 'list',
             'header_title' : f'{talk_title}',
