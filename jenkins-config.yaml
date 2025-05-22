@@ -95,8 +95,6 @@ security:
     creationOfLegacyTokenEnabled: false
     tokenGenerationOnCreationEnabled: false
     usageStatisticsEnabled: true
-  sSHD:
-    port: -1
 
 unclassified:
   buildDiscarders:
