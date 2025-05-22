@@ -107,8 +107,6 @@ unclassified:
     createAccountBasedOnEmail: false
     showEntireCommitSummaryInChanges: false
     useExistingAccountWithSameEmail: false
-  junitTestResultStorage:
-    storage: "file"
   location:
     adminAddress: "address not configured yet <nobody@nowhere>"
   mailer:
